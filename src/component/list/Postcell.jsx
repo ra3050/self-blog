@@ -9,12 +9,12 @@ const PostImg = styled.img.attrs({ alt: "post image" })`
 `;
 
 const Wrapper = styled.div`
-    height: calc((100vh / 4) - 32px);
-    width: calc((100vw / 4) - 32px);
+    width: calc(16.666vw - 32px);
+    height: calc(16.666vw - 32px);
     overflow: hidden;
     border: 1px double grey;
     border-radius: 16px;
-    margin: 16px;
+    margin: auto;
     transform: ${(props) => props.isHovering ? "scale(1.1)" : "scale(1.0)"};
     transition: 0.25s;
 `;
