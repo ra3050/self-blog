@@ -24,7 +24,7 @@ const TitleBox = styled.div`
     height: ${(props) => props.isHovering ? "100%" : "calc(100% / 4)"};
     top:  ${(props) => props.isHovering ? "0%" : "calc(100% * (3 / 4))"};
     position: relative;
-    background-color:   ${(props) => props.isHovering ? "transparent" : "lightgray"};
+    background-color: transparent;
     transition: 0.25s;
 
     display: table;     // 부모 프로퍼티를 테이블로 만들어두면 자식을 테이블-셀로 선언할 수 있음

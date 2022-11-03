@@ -4,13 +4,13 @@ import Postcell from "./Postcell";
 
 const Wrapper = styled.div`
     width: calc(100% - 32px);
-    height: ${(props) => { return (`${(props.length / 4 + 1) * 25}vh`); }};
+    height: ${(props) => { return (`${(props.length / 4) * 25}vw`); }};
     margin: 16px;
-    position: relative;
-    top: 200px;
+    
+
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
+    align-items: center;
     justify-content:flex-start;
     flex-wrap: wrap;
 
